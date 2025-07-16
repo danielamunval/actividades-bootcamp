@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="hotel, reservación, habitación">
+
+  <title>Formulario Ingreso Hotel</title>
+  <!-- Viculación con archivo "styles CSS" -->
+  <link rel="stylesheet" href="styles.css"> 
+</head>
+
+<body>
+  <!-- Se implementa clase "form-container", para estructurar el formulario y dar estilo en CSS-->
+  <div class="form-container">
+    <!-- Se forma identificador "reserva-form" para seleccionarlo con JavaScript 
+     Se indica la URL "/formulario" para que sean enviados los datos -->
+    <form action="/formulario" id="reserva-form">
+      <h2>Hotel DOM</h2>
+      <h2>Reserva tu habitación</h2>
+
+      <!-- Se implementan datos solicitados para formulario, junto al campo de entrada requerido -->
+       <label for="nombre">Nombre:</label>
+       <input type="text" id="nombre" name="nombre" required>
+       
+       <label for="correo">Correo electrónico:</label>
+       <input type="email" id="correo" name="correo" required>
+
+       <label for="fecha">Fecha de llegada:</label>
+       <input type="date" id="llegada" name="fechallegada" required>
+
+       <label for="fecha">Fecha de Salida:</label>
+       <input type="date" id="salida" name="fechasalida">
+
+       <!-- Módulo desplegable para elegir tipo de habitación -->
+       <label for="tipoHabitacion">Tipo de Habitación:</label>
+       <select id="habitacion" name="tipoHabitacion" required>
+        <option value="Individual">Individual</option>
+        <option value="Doble">Doble</option>
+        <option value="Suite">Suite</option>
+      </select>
+
+      <!-- Botón para enviar formulario, posee un id para identificarlo en JavaScript-->
+      <button type="submit" id="boton-enviar">Enviar</button>
+       
+    </form>
+
+  </div>
+    <!-- Vinculación con archivo js -->
+    <script src="script.js"></script>
+        
+</body>
+</html>

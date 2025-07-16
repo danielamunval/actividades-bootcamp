@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', sans-serif;
+  background-color: #e0faef; /* Fondo de color a la página */
+  height: 100vh;
+  /* Uso de flexbox para centrar formulario en vertical y horizontal en pantalla */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+.form-container {
+  background-color: #ffffff; /* Da fondo blanco al formulario */
+  padding: 30px;
+  border-radius: 12px; /* Da bordes redondeados al formulario */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Da sombra suave al formulario */
+  transition: box-shadow 0.3s ease;
+  width: 100%;
+  max-width: 400px;
+}
+
+.form-container:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  font-size: 1rem;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px;
+  color: black;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: 'Trebuchet MS', sans-serif;
+  cursor: pointer;
+  /* Transición en el color del fondo */
+  background-color: #838fd3;
+  transition: background-color 0.3s ease;
+}
+
+/* Cambia el color del botón al pasar el mouse por encima */
+button:hover {
+  background-color: #303f9f;
+}
