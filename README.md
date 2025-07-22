@@ -7,8 +7,7 @@ Este repositorio contiene una recopilación de **actividades, asignaciones y tar
 Actividades relacionadas con los temas vistos en clase, incluyendo:
 
 - Programación en **Java**
-- Desarrollo web con **HTML**
-- (Próximamente) **CSS** y **JavaScript**
+- Desarrollo web con **HTML**, **CSS** y **JavaScript**
 
 El contenido se irá actualizando de forma constante a medida que avance en el bootcamp y se me asignen nuevas tareas.
 
@@ -16,8 +15,8 @@ El contenido se irá actualizando de forma constante a medida que avance en el b
 
 - Java
 - HTML
-- (Próximamente) CSS
-- (Próximamente) JavaScript
+- CSS
+- JavaScript
 
 ## 🔧 Instalación
 
